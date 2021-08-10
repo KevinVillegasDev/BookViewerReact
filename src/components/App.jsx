@@ -44,6 +44,7 @@ class App extends Component {
             <div className="container-fluid">
                 <TitleBar />
                 <BookViewer book = {this.books[this.state.bookNumber]} nextBook = {this.goToNextBook} previousBook = {this.goToPreviousBook} />
+                
             </div>
         )
     }
