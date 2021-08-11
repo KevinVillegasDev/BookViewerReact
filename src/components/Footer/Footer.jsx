@@ -4,9 +4,9 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-                <div id="footer">
+                <footer className="footer">
                     2021, dCC Library
-                </div>
+                </footer>
 
      );
 }
